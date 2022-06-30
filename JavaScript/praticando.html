@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+
+        // Como fazemos para capturar uma mensagem da internet?
+        /*  CÓDIGO 1
+                var texto = window.prompt('Digite um texto qualquer: ')
+                window.alert(texto)
+        
+                // coloque o texto em letras maúsculas:
+        
+                window.alert(`este texto em letras maiúsculas ${texto.toUpperCase()}`)
+        
+                // o mesmo texto em letras minúsculas:
+                window.alert(`este texto em letras maiúsculas ${texto.toLowerCase()}`)
+        
+                */
+
+        // CÓDIGO 2
+        var n1 = Number(window.prompt('Digite o primeiro número: '))
+        var n2 = Number(window.prompt('Digite o segundo número: '))
+
+        // operações com números em JS
+        var s = n1 + n2
+        window.alert(`A soma dos números ${n1} e ${n2} é : ${s}`)
+
+        var s = n1 * n2
+        window.alert(`A multiplicação dos números ${n1} e ${n2} é : ${s}`)
+
+        var s = n1 / n2
+        window.alert(`A divisão dos números ${n1} e ${n2} é : ${s}`)
+
+        var s = n1 % n2
+        window.alert(`O resto da divisão entre os números ${n1} e ${n2} é : ${s}`)
+
+        var s = n1 ** n2
+        window.alert(`A potência entre os números ${n1} e ${n2} é : ${s}`)
+
+        var s = n1 - n2
+        window.alert(`A subtração entre os números ${n1} e ${n2} é : ${s}`)
+
+
+    </script>
+</body>
+
+</html>
